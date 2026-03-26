@@ -4,8 +4,6 @@ import java.util.*;
 
 public class TabelaVerdade {
 
-    //todos os Set (e também List, Map, Stack) usam wrapper quando você trabalha com tipos primitivos como char, boolean, int.
-
     // É pra retornar V e F ao inves de true ou false por causa do boolean.
     public static String boolToVF(boolean b) {
         if (b) {
