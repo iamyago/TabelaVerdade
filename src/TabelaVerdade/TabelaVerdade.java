@@ -109,8 +109,11 @@ public class TabelaVerdade {
         String expr = sc.nextLine().toUpperCase().replace(" ", "");
 
         Set<Character> vars = new HashSet<>();
-        for (char c : expr.toCharArray()) {
-            if (Character.isLetter(c)) vars.add(c);
+        for (int i = 0; i < expr.length(); i++) {
+            char c = expr.charAt(i);
+            if (Character.isLetter(c)) {
+                vars.add(Character.toUpperCase(c));
+            }
         }
 
         List<Character> varlist = new ArrayList<>(vars);
