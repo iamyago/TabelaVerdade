@@ -9,7 +9,7 @@ enum Conectivo implements OperacaoLogica {
     DISJUNCAO("∨", (p, q) -> p || q),
     CONDICIONAL("→", (p, q) -> !p || q),
     BICONDICIONAL("↔", (p, q) -> p == q),
-    NEGACAO("¬", p -> !p);
+    NEGACAO("¬", p -> !p);  // ← MUDE AQUI!
 
     public final String simbolo;
     public final BiFunction<Boolean, Boolean, Boolean> operacaoBinaria;
