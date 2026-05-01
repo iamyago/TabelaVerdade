@@ -1,4 +1,4 @@
-# 📊 Tabela Verdade — Gerador de Tabelas Verdade em Java
+# Tabela Verdade — Gerador de Tabelas Verdade em Java
 
 Um programa de console em Java que gera **tabelas verdade** para qualquer expressão da lógica proposicional, com validação completa de sintaxe e classificação automática (Tautologia, Contradição ou Contingência).
 
