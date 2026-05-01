@@ -46,8 +46,7 @@ java -cp out/ TabelaVerdade.TabelaVerdade
 
 ### Exemplo de uso
 ```
-Digite a expressão (ex: A&B, !A|B, (A->B)<->C)
-(ou digite 'sair' para encerrar): 
+Digite a expressão (ex: A&B, !A|B, (A->B)<->C) ou digite 'sair' para encerrar:
 (A -> B) & (B -> C)
 
 A	B	C	R
@@ -62,17 +61,6 @@ F	F	F	| V
 
 --- Análise da Expressão ---
 A expressão é uma CONTINGÊNCIA.
-
-Digite a expressão (ex: A&B, !A|B, (A->B)<->C)
-(ou digite 'sair' para encerrar): 
-A | !A
-
-A	R
-V	| V
-F	| V
-
---- Análise da Expressão ---
-A expressão é uma TAUTOLOGIA.
 ```
 
 ---
