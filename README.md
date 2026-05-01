@@ -4,7 +4,7 @@ Um programa de console em Java que gera **tabelas verdade** para qualquer expres
 
 ---
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 - **Geração automática** de tabelas verdade para expressões com qualquer número de variáveis
 - **Validação rigorosa** da expressão com **17+ tipos de erros** tratados, incluindo indicação visual da posição exata do erro
