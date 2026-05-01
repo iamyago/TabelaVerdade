@@ -137,21 +137,6 @@ graph TD
 
 ---
 
-## 📁 Estrutura dos Métodos
-
-| Método | Responsabilidade |
-|---|---|
-| `boolToVF` | Converte `boolean` para `"V"` ou `"F"` |
-| `prioridadeOP` | Define precedência dos operadores |
-| `ehOperadorUnario/Binario/ehOperador` | Classificam caracteres como operadores |
-| `preprocessarExpressao` | Converte `->` em `→`, `<->` em `↔`, etc. |
-| `validarExpressao` | Orquestra 4 etapas de validação |
-| `paraPosfixo` | Algoritmo Shunting Yard |
-| `avaliar` | Avalia expressão pós-fixa com pilha |
-| `extrairVariaveis` | Coleta variáveis únicas com `TreeSet` |
-| `processarTabela` | Gera e imprime a tabela verdade |
-| `analisarResultados` | Classifica como Tautologia/Contradição/Contingência |
-
 ---
 
 ## 🧪 Exemplos de Expressões
