@@ -29,7 +29,7 @@ Um programa de console em Java que gera **tabelas verdade** para qualquer expres
 
 ---
 
-## 🚀 Como Usar
+## Como Usar
 
 ### Pré-requisitos
 - **Java 17+** (usa switch expressions e `String.repeat`)
@@ -77,7 +77,7 @@ A expressão é uma TAUTOLOGIA.
 
 ---
 
-## 🛡️ Tratamento de Erros
+## Tratamento de Erros
 
 O programa valida a expressão **antes** de processá-la, com mensagens claras e uma seta (`^`) apontando o local do problema:
 
